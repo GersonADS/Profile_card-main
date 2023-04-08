@@ -13,19 +13,23 @@ body{
 }
 
 .principal{
-    width: 350px;
-    height: 400px;
+    width: 340px;
+    height: 320px;
     background-color: white;
+    border-radius: 3%;
 }
 
 .person{
-    text-align: center;
+    padding: 1rem;
     margin: auto;
-    background-color: antiquewhite;
+    height: 13rem;
+    text-align: center;
 }
+
 .imagem{
     padding: .3rem;
 }
+
 .imagem img{
     border-radius: 100%;
 }
@@ -33,10 +37,24 @@ body{
 .info{
     line-height: 2.5rem;
 }
+
 .gray{
     color: hsl(0, 0%, 59%);
     font-weight: 800;
 }
+
 p{
+    font-weight: 400;
     color: hsl(0, 0%, 59%);
+}
+
+footer{
+    display: flex;
+    height: 6.4rem;
+    align-items:center;
+    border-top: 3px solid hsl(0, 0%, 93%);
+    justify-content: space-around;
+}
+footer .status{
+    /* background-color:brown; */
 }
