@@ -10,28 +10,32 @@
 body{
     font-size: 18px;
     background-color: hsl(185, 75%, 39%);
+    background-image: url('/images/bg-pattern-top.svg'),url('/images/bg-pattern-bottom.svg');
+    /* background-repeat: no-repeat; */
 }
 .move{
     position: absolute;
     width: 340px;
-    height: 320px;
+    height: 370px;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
 }
+
 .principal{
+    background-image: url('/images/bg-pattern-card.svg');
+    background-repeat: no-repeat;
     position: relative;
     /* margin: auto; */
     width: 340px;
-    height: 320px;
+    height: 370px;
     background-color: white;
     border-radius: 3%;
 }
 
 .person{
-    padding: 1rem;
+    padding: 5rem;
     margin: auto;
-    height: 13rem;
     text-align: center;
 }
 
@@ -40,11 +44,12 @@ body{
 }
 
 .imagem img{
+    border: 5px solid white;
     border-radius: 100%;
 }
 
 .info{
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 
 .gray{
