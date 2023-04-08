@@ -1,0 +1,42 @@
+/* ## Font family para ser usada no projeto:
+
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700
+
+---
+
+*/
+
+body{
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.principal{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+}
+
+.person{
+    text-align: center;
+    margin: auto;
+    background-color: antiquewhite;
+}
+.imagem{
+    padding: .3rem;
+}
+.imagem img{
+    border-radius: 100%;
+}
+
+.info{
+    line-height: 2.5rem;
+}
+.gray{
+    color: hsl(0, 0%, 59%);
+    font-weight: 800;
+}
+p{
+    color: hsl(0, 0%, 59%);
+}
