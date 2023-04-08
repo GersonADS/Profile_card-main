@@ -13,6 +13,7 @@ body{
 }
 
 .principal{
+    position: relative;
     width: 340px;
     height: 320px;
     background-color: white;
@@ -40,7 +41,7 @@ body{
 
 .gray{
     color: hsl(0, 0%, 59%);
-    font-weight: 800;
+    font-weight: 700;
 }
 
 p{
@@ -50,11 +51,18 @@ p{
 
 footer{
     display: flex;
-    height: 6.4rem;
+    position: absolute;
+    padding: 1.5rem;
+    width: 100%;
+    bottom: 0;
     align-items:center;
-    border-top: 3px solid hsl(0, 0%, 93%);
     justify-content: space-around;
+    border-top: 4px solid hsl(0, 0%, 93%);
 }
 footer .status{
-    /* background-color:brown; */
+   text-align: center;
+}
+.status .results{
+    color: black;
+    font-weight: 700;
 }
