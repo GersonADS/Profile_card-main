@@ -11,9 +11,17 @@ body{
     font-size: 18px;
     background-color: hsl(185, 75%, 39%);
 }
-
+.move{
+    position: absolute;
+    width: 340px;
+    height: 320px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
 .principal{
     position: relative;
+    /* margin: auto; */
     width: 340px;
     height: 320px;
     background-color: white;
@@ -48,7 +56,6 @@ p{
     font-weight: 400;
     color: hsl(0, 0%, 59%);
 }
-
 footer{
     display: flex;
     position: absolute;
@@ -65,4 +72,14 @@ footer .status{
 .status .results{
     color: black;
     font-weight: 700;
+}
+
+.attribution{
+    color: white;
+    position: fixed;
+    bottom:0;
+    min-width: 100%;
+}
+a{
+    background-color: aliceblue;
 }
