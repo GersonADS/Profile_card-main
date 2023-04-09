@@ -6,13 +6,69 @@
 ---
 
 */
+@media(max-width:375px){
+
+    .corpo{
+        background-position: -730px -80vh, 120px 50vh;
+    }
+
+}
 
 body{
     font-size: 18px;
     background-color: hsl(185, 75%, 39%);
-    background-image: url('/images/bg-pattern-top.svg'),url('/images/bg-pattern-bottom.svg');
-    /* background-repeat: no-repeat; */
+    background-image: 
+    url('/images/bg-pattern-top.svg'), 
+    url('/images/bg-pattern-bottom.svg');
+    background-position: left -50vh, right 55vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
+
+.background_images{
+    position: absolute;
+    min-height: 100%;
+    height: 100%;
+    color: antiquewhite;
+}
+/* 
+background-image: url(img_flwr.gif), url(paper.gif);
+background-position: right bottom, left top;
+background-repeat: no-repeat, repeat; */
+
+/* .estilo{
+    position: fixed;
+    height: 100vh;
+    min-width: 100%;
+    background-attachment: fixed;
+}
+
+.top_estilo{
+    position: absolute;
+    background-size:1030px;
+    background-image: url('/images/bg-pattern-top.svg');
+    background-repeat: no-repeat;
+    background-position: -15vw -50vh;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    height: 100vh;
+    width: 50%;
+}
+
+.bottom_estilo{
+    background-size:1030px;
+    background-image: url('/images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: 0vw 45vh;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    height: 100vh;
+    width: 50%;
+} */
+
+
 .move{
     position: absolute;
     width: 340px;
@@ -31,6 +87,7 @@ body{
     height: 370px;
     background-color: white;
     border-radius: 3%;
+    box-shadow: 1px 1px 20px  hsla(229, 23%, 23%, 0.56);
 }
 
 .person{
@@ -50,10 +107,11 @@ body{
 
 .info{
     line-height: 2rem;
+    color: hsl(229, 23%, 23%);
 }
 
 .gray{
-    color: hsl(0, 0%, 59%);
+    color: hsl(227, 10%, 46%);
     font-weight: 700;
 }
 
@@ -75,7 +133,7 @@ footer .status{
    text-align: center;
 }
 .status .results{
-    color: black;
+    color: hsl(229, 23%, 23%);
     font-weight: 700;
 }
 
@@ -88,3 +146,4 @@ footer .status{
 a{
     background-color: aliceblue;
 }
+
